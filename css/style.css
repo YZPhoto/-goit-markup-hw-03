@@ -245,8 +245,7 @@ flex-basis: calc(100% / 4 - 30px);
     background-color: #F5F4FA;
     padding-top: 94;
     padding-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
+   
 }
 
 .team-title {
@@ -261,8 +260,8 @@ flex-basis: calc(100% / 4 - 30px);
 .team-list{
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * 30px);
-  margin-left: calc(-1 * 30px);
+  margin-top: calc(-1*30px);
+  margin-left: calc(-1*30px);
 }
 
 .team-list > .team-info{
