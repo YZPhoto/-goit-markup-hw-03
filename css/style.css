@@ -133,9 +133,7 @@ list-style: none;
 /* Банер */
 
 .section-decision{
-    height: 600px;
-    left: 0px;
-    top: 80px;
+   
     text-align: center;
     background: #2F303A;
 
@@ -243,9 +241,9 @@ flex-basis: calc(100% / 4 - 30px);
 /*Команда*/
 .section-team{
     background-color: #F5F4FA;
-    padding-top: 94;
+    padding-top: 94px;
     padding-bottom: 94px;
-   
+    
 }
 
 .team-title {
@@ -254,8 +252,7 @@ flex-basis: calc(100% / 4 - 30px);
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
-    padding-top: 94px;
-}
+   }
 
 .team-list{
   display: flex;
@@ -274,12 +271,17 @@ flex-basis: calc(100% / 4 - 30px);
     border-radius: 0px 0px 4px 4px;
     overflow: hidden;
 }
+
+.container-info{
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
 .team-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    padding-top: 30px;
     margin-bottom: 10px;
 }
 .team-profession{
@@ -288,7 +290,7 @@ flex-basis: calc(100% / 4 - 30px);
     line-height: 1.2;
     text-align: center;
     color: #757575;
-    padding-bottom: 30px;
+    
 }
 
 /*Футер*/
@@ -309,8 +311,8 @@ flex-basis: calc(100% / 4 - 30px);
     color: #fff;
     text-decoration: none;
     font-style: normal;
-
     margin-top: 20px;
+    margin-bottom: 9px;
 }
 .contact-footer{
 font-weight: 400px;
@@ -319,9 +321,13 @@ font-style: normal;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
-
+letter-spacing: 3%;
 margin-top: 9px;
 }
+.mail , .tel{
+  margin-top: 9px;
+}
+
 
 /*Портфолио*/
 
